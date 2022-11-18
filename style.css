@@ -1,12 +1,22 @@
 * {
-    font-family: 'Abril Fatface', cursive;
-    font-family: 'Modak', cursive;
     font-family: 'Monoton', cursive;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Patua One', cursive;
+    margin-bottom: 1em;
+
 }
 
 h1 {
+    background-color: blanchedalmond;
+    border: 2px solid 3;
     font-family: 'monoton';
-    font-size: larger;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+.subtitle {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
