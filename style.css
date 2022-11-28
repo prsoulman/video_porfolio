@@ -1,13 +1,29 @@
-* {
-    font-family: 'Monoton', cursive;
-    margin-bottom: 1em;
+:root {
+    
+    --basic: 'Syne', sans-serif;
+}
 
+* {
+    font-family: var(--basic);
+    /* margin-bottom: 1em; */
+    background-color: black;
+
+}
+img {
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 110%;
+    align-items: center;
+}
+a {
+    z-index: 1;
 }
 
 h1 {
     background-color: blanchedalmond;
-    border: 2px solid 3;
-    font-family: 'monoton';
+    border: 25px solid 30;
+    font-family: var(--basic);
     font-size: 3rem;
     text-align: center;
     /* padding-top: 1em; */
@@ -15,7 +31,10 @@ h1 {
 }
 
 .subtitle {
+    font-family: 'Syne', sans-serif;
     text-align: center;
+    font-size: 2em;
     padding-bottom: 1em;
     margin-top: -6px;
+    opacity: 60%;
 }
