@@ -19,7 +19,25 @@
   </head>
 
 <body>
+  <div class="gif">
 <img src="drGIF.gif" alt="spinning david rodriguez text">
+</div>
+
+<style>
+.parallax {
+  /* The image used */
+  background-image: url("img_parallax.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
  <!-- <h1> David Rodriguez's</h1>
  <h2 class="subtitle">
 Private Video Portfolio
@@ -29,26 +47,25 @@ Private Video Portfolio
     <source src="./david rodriguez spinning.mov" type="video/mov">
     Your browser does not support the video tag.
   </video> -->
- </div>
-  <div style="padding: 75% 0 0 0; position: relative">
+  <div class="vid" style="padding: 75% 0 0 0; position: relative">
     <iframe
       src="https://player.vimeo.com/video/772285583?h=21fa20cbea&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
       frameborder="0"
       allow="autoplay; fullscreen; picture-in-picture"
       allowfullscreen
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+      style="position: relative; top: 0; left: 0; width: 100%; height: 100%"
       title="1st cut_4.mp4"
     ></iframe>
   </div>
   <script src="https://player.vimeo.com/api/player.js"></script>
 
-  <div style="padding: 56.25% 0 0 0; position: relative">
+  <div class="vid" style="padding: 56.25% 0 0 0; position: relative">
     <iframe
       src="https://player.vimeo.com/video/772287894?h=5357999e02&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
       frameborder="0"
       allow="autoplay; fullscreen; picture-in-picture"
       allowfullscreen
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+      style="position: relative; top: 0; left: 0; width: 100%; height: 100%"
       title="From Cut to Door FTD Promo (On Spec)"
     ></iframe>
   </div>
