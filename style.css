@@ -11,11 +11,13 @@
 }
 img {
     display: block;
-    /* margin-left: auto;
-    margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
     width: 110%;
     align-items: center;
 }
+
+
 
 h1 {
     background-color: blanchedalmond;
@@ -26,6 +28,18 @@ h1 {
     /* padding-top: 1em; */
 
 }
+
+.gif {
+    padding-left: 1rem;
+}
+
+.vid {
+    display: flex;
+    size-adjust: 90%;
+    padding: .01rem;
+
+}
+
 
 .subtitle {
     font-family: 'Syne', sans-serif;
